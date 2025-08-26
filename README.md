@@ -7,7 +7,7 @@ My client is using the Cloud Service "ActiveCollab" for in their group to manage
 
 They trust in Cloud Services but it would be foolish to blindly trust it will be always there.
 
-There are some risks, like the Company behind AC will get bankrupt or the system gets hacked or the datacenter burns down etc.
+There are some risks, like the Company behind AC will get bankrupt or the system gets hacked or the data center burns down etc.
 
 Other requirement is by partners.  They need, by law, need backups of their whole communication what is stored inside AC.
 
@@ -33,8 +33,7 @@ I build a Toolbox around ActiveCollab to
 - export an extract of the backup files to our partners (as static HTML Files)
 - provide a download service to securely fetch the backups
 
-[[Assets/358a493b6a9db1627be2fca905c3109d_MD5.png|Open: Active Collab Toolbox Overview.png]]
-![[Assets/358a493b6a9db1627be2fca905c3109d_MD5.png]]
+![](./Assets/ActiveCollab%20Toolbox%20Overview.png)
 
 There will be the following GIT Reposities
 
@@ -42,7 +41,7 @@ There will be the following GIT Reposities
 - `ac-py-api` - an AC Client API written in Python 
 - `ac-backup` - some Python scripts, using the `ac-py-api` to dump data from AC into JSON files
 - `ac-to-html` - generate static HTML files from `ac-backup` JSON files
-- `ac-backup-provider` - a web-based download server provide the static HTML files, including the related JSON files and attachments, used by the partners oto download backup files
+- `ac-backup-provider` - a web-based download server provide the static HTML files, including the related JSON files and attachments, used by the partners to download backup files
 
 ## Safety Warning!
 
